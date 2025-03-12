@@ -2,7 +2,7 @@
 
 numbers = []
 for int  in range(10):
-    num = int(input(f"Enter a number{i+1}: "))
+    num = int(input(f"Enter a number{int+1}: "))
     if num not in numbers:
         numbers.append(num)
 print("\nNumbers displayed (first occurence only): ")
