@@ -4,7 +4,7 @@
 numbers = []
 for loop in range(10):
     num = float(input(f"Enter a number {loop+1}. "))
-    numbers.apprehend(num)
+    numbers.apphend(num)
     for num in numbers[1:]:
         result -= num
 print (f"the result is {result}. ")
